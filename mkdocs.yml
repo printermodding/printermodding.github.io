@@ -1,8 +1,10 @@
 site_name: Printer Modding
 site_url: https://printermodding.github.io/docs
 nav:
-  - Home: index.md
-  - Elegoo Neptune 3: elegoo/neptune3/README.md
+  - Home: firmware.md
+  - Elegoo Neptune 3:
+      - 'Firmware': elegoo/neptune3/firmware/firmware.md
+      - 'Modding': elegoo/neptune3/modding/modding.md
 
 theme:
   name: material
