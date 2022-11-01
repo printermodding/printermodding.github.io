@@ -5,9 +5,9 @@
 
 {% block footer %}
 <div class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
-        <small>Authors:</small>
+        <small class="contributors" data-bi-name="contributors">Authors:</small>
             {%- for user in committers -%}
-            <a href="{{ user.repos }}" title="{{ user.name }}" data-bi-name="contributorprofile"><img src="../img/contributor.svg" data-src="{{ user.avatar }}?size=32" alt="{{ user.name }}"></a>
+            <a href="{{ user.repos }}" title="{{ user.name }}" data-bi-name="contributorprofile"></a>
             {%- endfor -%}
 </div>
 {% endblock %}
