@@ -1,6 +1,7 @@
 site_name: Printer Modding
 site_url: https://printermodding.github.io/docs
 nav:
+  - Home: index.md
   - Elegoo Neptune 3:
       - 'Firmware':
           - 'Marlin (Factory default)': elegoo/neptune3/firmware/marlin.md
