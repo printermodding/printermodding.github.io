@@ -1,13 +1,12 @@
 site_name: Printer Modding
 site_url: https://printermodding.github.io/docs
 nav:
-  - Home: marlin.md
   - Elegoo Neptune 3:
       - 'Firmware':
           - 'Marlin (Factory default)': elegoo/neptune3/firmware/marlin.md
           - 'Klipper': elegoo/neptune3/firmware/klipper.md
       - 'Modding':
           - 'Dual Extruder': elegoo/neptune3/modding/dualextruder.md
-
+          - 'Dual Z-Axis Drive': elegoo/neptune3/modding/dualzaxis.md
 theme:
   name: material
