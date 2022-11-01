@@ -5,6 +5,7 @@ nav:
   - Elegoo Neptune 3:
       - 'Firmware':
           - 'Marlin (Factory default)': elegoo/neptune3/firmware/marlin.md
+          - 'Klipper': elegoo/neptune3/firmware/klipper.md
       - 'Modding':
           - 'Dual Extruder': elegoo/neptune3/modding/dualextruder.md
 
