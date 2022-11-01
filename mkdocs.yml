@@ -11,8 +11,12 @@ nav:
           - 'Dual Z-Axis Drive': elegoo/neptune3/modding/dualzaxis.md
 theme:
   name: material
+  
+plugins:
+  - git-authors
 
 markdown_extensions:
   - attr_list
 extra_css:
   - main.css
+ 
