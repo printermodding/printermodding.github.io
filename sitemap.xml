@@ -6,12 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://printermodding.github.io/docs/elegoo/neptune3/firmware/firmware/</loc>
+         <loc>https://printermodding.github.io/docs/elegoo/neptune3/firmware/marlin/</loc>
          <lastmod>2022-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://printermodding.github.io/docs/elegoo/neptune3/modding/modding/</loc>
+         <loc>https://printermodding.github.io/docs/elegoo/neptune3/modding/dualextruder/</loc>
          <lastmod>2022-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
