@@ -4,8 +4,6 @@ nav:
   - Home: index.md
   - Elegoo Neptune 3:
       - Types:
-          - Comments: v1/types/comments.md
-          - Posts: v1/types/posts.md
-
+          - Posts: testfolder/testmd.md
 
 theme: readthedocs
