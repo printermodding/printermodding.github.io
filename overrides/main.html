@@ -5,10 +5,11 @@
 
 {% block footer %}
     <div class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
-         <small class="contributors" data-bi-name="contributors">Authors:</small>
+         <small class="contributors" data-bi-name="contributors">Authors:&nbsp;
               {%- for user in committers -%}
-                  <a href="{{ user.repos }}" title="{{ user.name }}" data-bi-name="contributorprofile"></a>
+                  <a href="{{ user.repos }}" title="{{ user.login }}" data-bi-name="contributorprofile">{{ user.login }}</a>
               {%- endfor -%}
+         </small>
     </div>
     {% endblock %}
 {% endblock %}
