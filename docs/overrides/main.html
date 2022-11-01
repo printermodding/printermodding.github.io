@@ -12,3 +12,10 @@
 </div>
 {% endblock %}
 {% endblock %}
+
+<script type="text/javascript">
+    $( '.contributors' ).each( function() {
+        src = $(this).attr("data-src");
+        $(this).attr('src',src);
+    });
+</script>
