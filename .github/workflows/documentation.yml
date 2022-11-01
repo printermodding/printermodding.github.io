@@ -17,7 +17,8 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+    env:
+      MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -25,8 +26,6 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-python@v2
-      - env:
-          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
       - run: pip install --upgrade pip && pip install mkdocs mkdocs-gen-files
       - run: pip install mkdocs-material
       - run: pip install mkdocs-git-committers-plugin
