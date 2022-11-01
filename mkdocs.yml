@@ -11,10 +11,13 @@ nav:
           - 'Dual Z-Axis Drive': elegoo/neptune3/modding/dualzaxis.md
 theme:
   name: material
-  custom_dir: docs/overrides
 
 plugins:
-  - git-authors
+  - search
+  - git-committers:
+      repository: printermodding/printermodding.github.io
+        branch: main
+        token: !!python/object/apply:os.getenv [ "MKDOCS_GIT_COMMITTERS_APIKEY" ]
 
 markdown_extensions:
   - attr_list
