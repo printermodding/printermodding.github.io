@@ -4,6 +4,4 @@ nav:
   - Home: index.md
   - Elegoo Neptune 3: testmd.md
 
-docs_dir: /
-site_dir: /
 theme: readthedocs
