@@ -18,7 +18,7 @@ plugins:
   - git-committers:
       repository: printermodding/printermodding.github.io
       branch: main
-      token: !!python/object/apply:os.getenv [ "MKDOCS_GIT_COMMITTERS_APIKEY" ]
+      token: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
 
 markdown_extensions:
   - attr_list
