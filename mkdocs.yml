@@ -1,5 +1,5 @@
 site_name: Printer Modding
-site_url: printermodding.github.io
+site_url: https://printermodding.github.io/
 nav:
   - Home: index.md
   - Elegoo Neptune 3: testmd.md
