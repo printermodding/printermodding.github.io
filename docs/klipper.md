@@ -12,6 +12,9 @@ include:
 - Enhanced bed leveling: Klipper's bed leveling routines are more sophisticated than the ones typically found in
   firmware, allowing for better print quality.
 
+**Note:** Klipper is not compatible with all printer touch screens (eg. Neptune 3), so prints will have to be monitored through the web interface exclusively.
+
+
 ##Installation
 
 There are multiple ways to install and setup Klipper. For this tutorial, a tool
