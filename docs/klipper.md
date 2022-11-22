@@ -63,7 +63,7 @@ Choose the option "Build only" and follow the instructions for your printer if a
 
 ###Step 4 - Firmware installation
 
-The tool will output a firmware file. Install this firmware accordingly with your printers instructions.
+The tool will output a firmware file. Install this firmware according to your printer's instructions.
 <details markdown="1">
   <summary>Elegoo Neptune 3</summary> 
   
