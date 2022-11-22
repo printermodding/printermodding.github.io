@@ -28,6 +28,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-git-committers-plugin
       - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-include-markdown-plugin
       - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Publish docs
         env:
