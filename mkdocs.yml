@@ -2,13 +2,7 @@ site_name: Printer Modding
 site_url: https://printermodding.github.io/docs
 nav:
   - Home: index.md
-  - Elegoo Neptune 3:
-      - 'Firmware':
-          - 'Marlin (Factory default)': elegoo/neptune3/firmware/marlin.md
-          - 'Klipper': elegoo/neptune3/firmware/klipper.md
-      - 'Modding':
-          - 'Dual Extruder': elegoo/neptune3/modding/dualextruder.md
-          - 'Dual Z-Axis Drive': elegoo/neptune3/modding/dualzaxis.md
+  - Klipper: klipper.md
 theme:
   name: material
   custom_dir: docs/overrides/
@@ -20,10 +14,11 @@ plugins:
       branch: main
       token: !!python/object/apply:os.getenv [ "MKDOCS_GIT_COMMITTERS_APIKEY" ]
   - git-revision-date-localized
+  - include-markdown
 
 markdown_extensions:
   - attr_list
-
+  - md_in_html
 extra_css:
   - main.css
 

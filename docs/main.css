@@ -1,5 +1,7 @@
-.small-img{
-    height:50px;
-    width:50px;
-    display: block;
+.img-right {
+    float: right;
+    width:40%;
+}
+h3{
+    margin-top: 0!important;
 }
